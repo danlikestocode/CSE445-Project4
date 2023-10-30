@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parks>
+  <Park type="Recreational">
+    <Name>Grand Canyon</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn Founder="Woodrow Wilson">1919</EstablishedIn>
+
+    <Reservation>
+      <Address>20 South Entrance Road, Grand Canyon, AZ 86023</Address>
+      <Url>https://www.nps.gov/grca</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Arizona</State>
+      <State>Utah</State>
+      <State>Nevada</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Historical">
+    <Name>Yellowstone</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn>1872</EstablishedIn>
+
+    <Reservation>
+      <Address>Main St, Yellowstone National Park, WY 82190</Address>
+      <Url>https://www.nps.gov/yell</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Wyoming</State>
+      <State>Montana</State>
+      <State>Idaho</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Recreational">
+    <Name>Yosemite</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn>1890</EstablishedIn>
+
+    <Reservation>
+      <Address>9035 Village Dr, Yosemite Valley, CA 95389</Address>
+      <Url>https://www.nps.gov/yose</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>California</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Natural">
+    <Name>Zion</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn Founder="Woodrow Wilson">1919</EstablishedIn>
+
+    <Reservation>
+      <Address>1 Zion Park Blvd, Springdale, UT 84767</Address>
+      <Url>https://www.nps.gov/zion</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Utah</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Natural">
+    <Name>Arches</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn>1929</EstablishedIn>
+
+    <Reservation>
+      <Address>Moab, UT 84532</Address>
+      <Url>https://www.nps.gov/arch</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Utah</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Recreational">
+    <Name>Everglades</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn>1934</EstablishedIn>
+
+    <Reservation>
+      <Address>40001 State Road 9336, Homestead, FL 33034</Address>
+      <Url>https://www.nps.gov/ever</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Florida</State>
+    </NeighboringStates>
+  </Park>
+
+
+  <Park type="Historical">
+    <Name>Great Smoky Mountains</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn>1934</EstablishedIn>
+
+    <Reservation>
+      <Address>107 Park Headquarters Road, Gatlinburg, TN 37738</Address>
+      <Url>https://www.nps.gov/grsm</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Tennessee</State>
+      <State>North Carolina</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Natural">
+    <Name>Rocky Mountain</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn>1915</EstablishedIn>
+
+    <Reservation>
+      <Address>1000 US Hwy 36, Estes Park, CO 80517</Address>
+      <Url>https://www.nps.gov/romo</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Colorado</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Recreational">
+    <Name>Acadia</Name>
+    <Owner>Federal Government</Owner>
+    <EstablishedIn Founder="Woodrow Wilson">1916</EstablishedIn>
+
+    <Reservation>
+      <Address>25 Visitor Center Road, Bar Harbor, ME 04609</Address>
+      <Url>https://www.nps.gov/acad</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>Maine</State>
+    </NeighboringStates>
+  </Park>
+
+  <Park type="Natural">
+    <Name>Death Valley</Name>
+    <EstablishedIn>1994</EstablishedIn>
+    <Owner>Federal Government</Owner>
+
+    <Reservation>
+      <Address>328 Greenland Blvd, Death Valley, CA 92328</Address>
+      <Url>https://www.nps.gov/deva</Url>
+    </Reservation>
+
+    <NeighboringStates>
+      <State>California</State>
+      <State>Nevada</State>
+    </NeighboringStates>
+  </Park>
+
+</Parks>

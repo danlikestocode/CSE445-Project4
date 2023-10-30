@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Root Element "Parks" -->
+  <xs:element name="Parks">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Park Element, which can occur multiple times -->
+        <xs:element name="Park" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- Elements inside Park: Owner, Name, Type -->
+              <xs:element name="Owner" type="xs:string"/>
+              <xs:element name="Name" type="xs:string"/>
+              <xs:attribute name="Type" type="xs:string" use="required"/>
+
+              <!-- EstablishedIn as an integer with optional attribute Founder -->
+              <xs:element name="EstablishedIn">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:positiveInteger">
+                      <xs:attribute name="Founder" type="xs:string" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+
+              <!-- Reservation element which contains one or more Address and URL -->
+              <xs:element name="Reservation">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Address" type="xs:string" maxOccurs="unbounded"/>
+                    <xs:element name="Url" type="xs:anyURI"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <!-- NeighboringStates can have multiple State values -->
+              <xs:element name="NeighboringStates">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="State" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+  </xs:schema>
+
